@@ -1,15 +1,27 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import alias from "@rollup/plugin-alias";
+import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      '@': 'src',
-      '@assets': path.resolve(__dirname, './src/assets'),
-      '@components': path.resolve(__dirname, './src/components'),
-    },
-  },
-})
+  plugins: [
+    react(),
+    alias({
+      entries: [
+        { find: "@", replacement: path.resolve(__dirname, "src") },
+        { find: "@assets", replacement: path.resolve(__dirname, "src/assets") },
+        {
+          find: "@components",
+          replacement: path.resolve(__dirname, "src/assets"),
+        },
+        /* Alias example
+        {
+          find: "@example",
+          replacement: path.resolve(__dirname, "src/example"),
+        },
+        */
+      ],
+    }),
+  ],
+});

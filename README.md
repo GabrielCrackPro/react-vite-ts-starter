@@ -59,9 +59,7 @@ For other commands see the [package.json](https://github.com/GabrielCrackPro/rea
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@assets/*": ["./src/assets/*"],
-      /* Alias example:
-      "@example/*": ["./src/example/*"]
-      */
+      // "@example/*": ["./src/example/*"] Alias example
     }
 ```
 

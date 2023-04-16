@@ -25,7 +25,7 @@ The following packages / files are included
 Clone this repository
 
 ```
-git clone https://github.com/GabrielCrackPro/react-vite-ts-template.git <app_name>
+npx degit GabrielCrackPro/react-vite-ts-template <app_name>
 ```
 
 Run this command in the root directory

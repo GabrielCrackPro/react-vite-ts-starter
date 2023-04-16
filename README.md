@@ -6,9 +6,12 @@ Start your next project easily
 
 ### Import aliases support
 
+Default aliases:
+
 - <code>@ -> src/</code>
-- <code>@components -> src/components</code>
-- <code>@assets -> src/assets</code>
+- <code>@components -> src/components</code> - Custom components
+- <code>@assets -> src/assets</code> - App assests
+- <code>@routes -> src/routes</code> - App routes
 
 ### Packages
 
@@ -18,6 +21,7 @@ The following packages / files are included
 - [TypeScript](https://www.typescriptlang.org/)
 - [EsLint](https://eslint.org/)
 - [typescript-eslint](https://typescript-eslint.io/)
+- [react-router v6](https://reactrouter.com/en/main)
 - A preconfigured [.eslintrc](https://github.com/GabrielCrackPro/react-vite-ts-starter/blob/main/.eslintrc.cjs) file
 
 ## Install
@@ -59,6 +63,7 @@ For other commands see the [package.json](https://github.com/GabrielCrackPro/rea
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@assets/*": ["./src/assets/*"],
+      "@routes/*": ["./src/routes/*"],
       // "@example/*": ["./src/example/*"] Alias example
     }
 ```
@@ -73,6 +78,7 @@ alias({
     { find: "@", replacement: path.resolve(__dirname, "src") },
     { find: "@assets", replacement: path.resolve(__dirname, "src/assets") },
     { find: "@components", replacement: path.resolve(__dirname, "src/components") },
+    { find: "@routes", replacement: path.resolve(__dirname, "src/routes") },
     /*
     Alias example:
     { find: "@example", replacement: path.resolve(__dirname, "src/example") },

@@ -49,8 +49,8 @@ yarn
 ## Available commands
 
 - Start your project: <code>yarn dev</code> or <code>npm run dev</code>
-- Show all eslint warnings and errors <code>yarn lint</code> or <code>npm run lint</code>
-- Fix EsLint fixable problems <code>yarn lint:fix</code> or <code>npm run lint:fix</code>
+- Show all eslint problems <code>yarn lint</code> or <code>npm run lint</code>
+- Fix eslint problems <code>yarn lint:fix</code> or <code>npm run lint:fix</code>
 
 For other commands see the [package.json](https://github.com/GabrielCrackPro/react-vite-ts-starter/blob/main/package.json) file
 

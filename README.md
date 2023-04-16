@@ -57,17 +57,29 @@ For other commands see the [package.json](https://github.com/GabrielCrackPro/rea
 ```json
 "paths": {
       "@/*": ["./src/*"],
-      "@aliasName/*": ["./src/folderPath/*"]
+      "@components/*": ["./src/components/*"],
+      "@assets/*": ["./src/assets/*"],
+      /* Alias example:
+      "@example/*": ["./src/example/*"]
+      */
     }
 ```
 
 2. Go to the [vite.config.ts](https://github.com/GabrielCrackPro/react-vite-ts-starter/blob/main/vite.config.ts) file and add this
 
 ```ts
- resolve: {
-    alias: [
-      { find: "@", replacement: path.resolve(__dirname, "src") },
-      { find: "@aliasName", replacement: path.resolve(__dirname, "folderPath") }
-      ],
-  }
+plugins: [
+react(),
+alias({
+  entries: [
+    { find: "@", replacement: path.resolve(__dirname, "src") },
+    { find: "@assets", replacement: path.resolve(__dirname, "src/assets") },
+    { find: "@components", replacement: path.resolve(__dirname, "src/components") },
+    /*
+    Alias example:
+    { find: "@example", replacement: path.resolve(__dirname, "src/example") },
+    */
+  ],
+});
+]
 ```

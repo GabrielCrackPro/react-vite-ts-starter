@@ -6,7 +6,7 @@ import "@/Home.css";
 
 const Home: React.FC = () => {
   return (
-    <div className="App">
+    <div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -19,14 +19,12 @@ const Home: React.FC = () => {
         </a>
       </div>
       <h1>Vite + React + TypeScript</h1>
-      <div className="card">
+      <div>
         <p>
           Edit <code>src/routes/Home.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite React and TypeScript logos to learn more
-      </p>
+      <p>Click on the Vite React and TypeScript logos to learn more</p>
     </div>
   );
 };

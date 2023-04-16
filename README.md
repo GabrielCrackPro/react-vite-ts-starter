@@ -50,7 +50,7 @@ yarn
 
 For other commands see the [package.json](https://github.com/GabrielCrackPro/react-vite-ts-template/blob/main/package.json) file
 
-## Add more aliases
+## Add more import aliases
 
 1. Go to the [tsconfig.json](https://github.com/GabrielCrackPro/react-vite-ts-template/blob/main/tsconfig.json) file and add this
 

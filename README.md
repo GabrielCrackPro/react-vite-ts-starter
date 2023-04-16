@@ -18,14 +18,14 @@ The following packages / files are included
 - [TypeScript](https://www.typescriptlang.org/)
 - [EsLint](https://eslint.org/)
 - [typescript-eslint](https://typescript-eslint.io/)
-- A preconfigured [.eslintrc](https://github.com/GabrielCrackPro/react-vite-ts-template/blob/main/.eslintrc.cjs) file
+- A preconfigured [.eslintrc](https://github.com/GabrielCrackPro/react-vite-ts-starter/blob/main/.eslintrc.cjs) file
 
 ## Install
 
 Clone this repository
 
 ```
-npx degit GabrielCrackPro/react-vite-ts-template <app_name>
+npx degit GabrielCrackPro/react-vite-ts-starter <app_name>
 ```
 
 Run this command in the root directory
@@ -48,11 +48,11 @@ yarn
 - Show all eslint warnings and errors <code>yarn lint</code> or <code>npm run lint</code>
 - Fix EsLint fixable problems <code>yarn lint:fix</code> or <code>npm run lint:fix</code>
 
-For other commands see the [package.json](https://github.com/GabrielCrackPro/react-vite-ts-template/blob/main/package.json) file
+For other commands see the [package.json](https://github.com/GabrielCrackPro/react-vite-ts-starter/blob/main/package.json) file
 
 ## Add more import aliases
 
-1. Go to the [tsconfig.json](https://github.com/GabrielCrackPro/react-vite-ts-template/blob/main/tsconfig.json) file and add this
+1. Go to the [tsconfig.json](https://github.com/GabrielCrackPro/react-vite-ts-starter/blob/main/tsconfig.json) file and add this
 
 ```json
 "paths": {
@@ -61,7 +61,7 @@ For other commands see the [package.json](https://github.com/GabrielCrackPro/rea
     }
 ```
 
-2. Go to the [vite.config.ts](https://github.com/GabrielCrackPro/react-vite-ts-template/blob/main/vite.config.ts) file and add this
+2. Go to the [vite.config.ts](https://github.com/GabrielCrackPro/react-vite-ts-starter/blob/main/vite.config.ts) file and add this
 
 ```ts
  resolve: {

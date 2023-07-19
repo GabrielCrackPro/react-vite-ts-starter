@@ -2,7 +2,7 @@ import React from "react";
 import viteLogo from "@assets/vite.svg";
 import reactLogo from "@assets/react.svg";
 import typesciptLogo from "@assets/typescript.svg";
-import "@/Home.css";
+import "./Home.css";
 
 const Home: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <a href="https://www.typescriptlang.org" target="_blank">
-          <img src={typesciptLogo} className="logo react" alt="React logo" />
+          <img src={typesciptLogo} className="logo ts" alt="Typescript logo" />
         </a>
       </div>
       <h1>Vite + React + TypeScript</h1>

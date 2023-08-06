@@ -4,6 +4,8 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  extends: ["plugin:react/recommended", "standard-with-typescript"],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: "module",

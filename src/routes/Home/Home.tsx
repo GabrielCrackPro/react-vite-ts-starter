@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       <h1>Vite + React + TypeScript</h1>
       <div>
         <p>
-          Edit <code>src/routes/Home.tsx</code> and save to test HMR
+          Edit <code>src/routes/Home/Home.tsx</code> and save to test HMR
         </p>
       </div>
       <p>Click on the Vite React and TypeScript logos to learn more</p>

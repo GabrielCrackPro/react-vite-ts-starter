@@ -19,6 +19,10 @@ export default defineConfig({
           find: "@routes",
           replacement: path.resolve(__dirname, "src/routes"),
         },
+        {
+          find: "@interfaces",
+          replacement: path.resolve(__dirname, "src/interfaces"),
+        },
         /* Alias example
         {
           find: "@example",

@@ -18,6 +18,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
+      "@interfaces/*": ["./src/interfaces/*"],
       "@assets/*": ["./src/assets/*"],
       "@routes/*": ["./src/routes/*"]
       // "@example/*:["./src/example/*"]" Alias example

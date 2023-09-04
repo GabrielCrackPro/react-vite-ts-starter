@@ -94,3 +94,6 @@ alias({
 });
 ]
 ```
+
+> If the <code>components</code> folder or the <code>interfaces</code> folder
+> are not empty remove the <code>.gitkeep</code> file
